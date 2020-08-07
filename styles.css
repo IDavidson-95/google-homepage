@@ -1,0 +1,133 @@
+/*Overall outline and styling*/
+html{
+    height: 90%;   
+}
+
+
+body{
+    font-family: arial, sans-serif;
+    height: 100%;   
+}
+
+.header{
+    padding-top: 20px;
+    font-size: 13px;
+    opacity: 0.75;
+}
+
+main{
+    display: flex;
+    min-height: 90%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer{
+    font-size: 14px;
+    color: #5f6368;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    display: inline;
+}
+
+
+/*Top nav*/
+#Ltop{
+    float: left;
+    padding-left: 15px;
+}
+
+.about, .store{
+    padding: 5px;
+}
+
+#Rtop{
+    float: right;
+    padding-right: 15px;
+}
+
+.gmail, .images{
+    padding: 5px;
+    
+}
+
+.apps{ 
+    opacity: 0.75;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.profile{
+    background-color: blue;
+    border: solid 5px blue;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    vertical-align: middle;
+}
+
+/*Bottom nav*/
+#Lbottom{
+    float: left;
+    padding-left: 15px;
+}
+
+#Rbottom{
+    float: right;
+    padding-right: 15px;
+}
+
+.australia{
+    padding-left: 27px;
+    margin-bottom: 30px;
+}
+
+.advertising, .business, .HSworks{
+    padding: 12px;
+}
+
+.privacy, .terms, .settings{
+    padding: 12px;
+}
+
+
+/*Search area styling*/
+
+.SearchSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchbar{
+    border-radius: 20px;
+    border: solid 1px #5f6368;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    opacity: 0.3;
+    width: 150%;
+}
+
+.UnderBar{
+    font-size: 14px;
+    color: #5f6368;
+}
+
+.search, .lucky{
+    padding: 20px;
+}
+
