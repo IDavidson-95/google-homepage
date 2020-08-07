@@ -1,6 +1,6 @@
 /*Overall outline and styling*/
 html{
-    height: 90%;   
+    height: 87%;   
 }
 
 
@@ -91,7 +91,10 @@ li{
 
 .australia{
     padding-left: 27px;
-    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: solid 1px #e7e1e1;
+    border-bottom: solid 1px #e7e1e1;
 }
 
 .advertising, .business, .HSworks{
@@ -112,13 +115,16 @@ li{
     justify-content: center;
 }
 
+.srch{
+    display: inline-block;
+}
+
 .searchbar{
     border-radius: 20px;
-    border: solid 1px #5f6368;
+    border: solid 1px #dad4d4;
     padding: 10px;
     margin-top: 30px;
     margin-bottom: 30px;
-    opacity: 0.3;
     width: 150%;
 }
 
