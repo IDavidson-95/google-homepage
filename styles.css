@@ -3,16 +3,17 @@ html{
     height: 87%;   
 }
 
+.header a{
+    text-decoration: none;
+    font-size: 13px;
+    opacity: 0.75;
+    color: black;
+    padding-top: 20px;
+}
 
 body{
     font-family: arial, sans-serif;
     height: 100%;   
-}
-
-.header{
-    padding-top: 20px;
-    font-size: 13px;
-    opacity: 0.75;
 }
 
 main{
@@ -23,9 +24,10 @@ main{
     width: 100%;
 }
 
-.footer{
+.footer a{
     font-size: 14px;
     color: #5f6368;
+    text-decoration: none;
 }
 
 ul{
@@ -40,6 +42,7 @@ li{
 
 
 /*Top nav*/
+
 #Ltop{
     float: left;
     padding-left: 15px;
@@ -78,7 +81,14 @@ li{
     vertical-align: middle;
 }
 
+.about:hover, .store:hover, .gmail:hover, .images:hover{
+    text-decoration: underline;
+}
+
+
+
 /*Bottom nav*/
+
 #Lbottom{
     float: left;
     padding-left: 15px;
@@ -105,8 +115,13 @@ li{
     padding: 12px;
 }
 
+.australia:hover, .advertising:hover, .business:hover,  .HSworks:hover, .privacy:hover, .terms:hover, .settings:hover{
+    text-decoration: underline;
+    color: #5f6368;
+}
 
 /*Search area styling*/
+
 
 .SearchSection{
     display: flex;
@@ -116,16 +131,27 @@ li{
 }
 
 .srch{
-    display: inline-block;
-}
-
-.searchbar{
-    border-radius: 20px;
+    display: grid;
+    border-radius: 40px;
     border: solid 1px #dad4d4;
     padding: 10px;
     margin-top: 30px;
     margin-bottom: 30px;
     width: 150%;
+    grid-template-columns: repeat(10, 24px);
+    align-items: center;
+}
+
+.srchicon{
+    grid-column: 1/1;
+    opacity: 0.3;
+    font-size: 14px;
+}
+
+.searchbar{
+    grid-column: 2/10;
+    width: 200%;
+    border: none;
 }
 
 .UnderBar{
@@ -134,6 +160,15 @@ li{
 }
 
 .search, .lucky{
-    padding: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid white;
 }
 
+.search:hover, .lucky:hover{
+    color: #222;
+    border: 1px solid #c6c6c6;
+    background-color: #f8f8f8;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
