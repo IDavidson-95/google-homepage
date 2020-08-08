@@ -3,7 +3,12 @@ html{
     height: 87%;   
 }
 
-.header a{
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
     text-decoration: none;
     font-size: 13px;
     opacity: 0.75;
@@ -63,7 +68,7 @@ li{
 }
 
 .apps{ 
-    opacity: 0.75;
+    opacity: 0.5;
     vertical-align: middle;
     padding-right: 10px;
 }
@@ -85,6 +90,9 @@ li{
     text-decoration: underline;
 }
 
+.apps:hover{
+    opacity: 1.0;
+}
 
 
 /*Bottom nav*/
@@ -102,7 +110,7 @@ li{
 .australia{
     padding-left: 27px;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     border-top: solid 1px #e7e1e1;
     border-bottom: solid 1px #e7e1e1;
 }
@@ -171,4 +179,9 @@ li{
     background-color: #f8f8f8;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     border-radius: 5px;
+}
+
+.srch:hover{
+    box-shadow: 0px 3px 2px #e0dddd;
+    border-color: #ece5e5;
 }
